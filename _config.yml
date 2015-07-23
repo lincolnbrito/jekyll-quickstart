@@ -1,4 +1,4 @@
-permalink: /brodin/:year/:month/:title
+#permalink: /brodin/:year/:month/:title
 include: ['_pages','portfolio']
 highlighter: rouge
 defaults:
