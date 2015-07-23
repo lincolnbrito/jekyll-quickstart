@@ -1,9 +1,10 @@
+highlighter: rouge
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "post"
+      layout: "default"
   -
     scope:
       path: "arquivos" # an empty string here means all files in the project
