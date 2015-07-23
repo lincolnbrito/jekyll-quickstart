@@ -25,3 +25,14 @@ defaults:
     values:
       layout: "portfolio"  
       permalink: /portfolio/:title
+
+# Site Configuration
+title:            O Nome do Seu Site Aqui
+description:      Site description for the metas.
+logo:             site-logo.png
+
+# Owner/author information
+owner:
+  name:           Your Name
+  avatar:         your-photo.jpg
+  email:          your@email.com
