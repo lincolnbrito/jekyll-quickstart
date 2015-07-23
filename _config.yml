@@ -1,5 +1,5 @@
 permalink: /brodin/:year/:month/:title
-include: ['_pages']
+include: ['_pages','portfolio']
 highlighter: rouge
 defaults:
   -
@@ -17,4 +17,11 @@ defaults:
       path: "teste" # an empty string here means all files in the project
       type: "posts" 
     values:
-      layout: "special"      
+      layout: "special"
+  -
+    scope:
+      path: "portfolio" # an empty string here means all files in the project
+      type: "posts" 
+    values:
+      layout: "portfolio"  
+      permalink: /portfolio/:title        
