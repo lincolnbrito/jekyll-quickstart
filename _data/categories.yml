@@ -1,0 +1,7 @@
+- name: Tecnologia
+  slug: tecnologia
+  description: "Tudo sobre tecnologia, aqui você ficará informado sobre os últimos lançamentos"
+
+- name: Negócios
+  slug: negocios
+  description: "Tudo sobre negócios, aquisições e investimentos"

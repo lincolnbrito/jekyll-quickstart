@@ -7,13 +7,24 @@
   <body>
     <div id="container"> 
       <header class="group">
-        <h2>Subtitulo</h2>
-        <h1 class="logo"><a href="/">Título</a></h1>
+        <!--<h2>Subtitulo</h2>-->
+        <!--<h1 class="logo"><a href="/">Título</a></h1>-->
       </header>
       <div id="content">
         {{ content }}
       </div>
       {% include footer.html %}
     </div>
+    <hr>
+    Categorias
+    <ul>
+    {% for category in site.data.categories %}
+      <li>
+        <small><a href="/category/{{ category.slug }}">
+          {{ category.name }} - {{ category.description }}
+        </a></small>
+      </li>
+    {% endfor %}
+    </ul>
   </body>
 </html>
