@@ -36,3 +36,6 @@ owner:
   name:           Your Name
   avatar:         your-photo.jpg
   email:          your@email.com
+
+sass:
+  style: compressed
