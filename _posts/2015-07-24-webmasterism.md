@@ -1,7 +1,5 @@
 ---
 title: Webmasterism
-category: teste
-permalink: /blog/tag/github-pages/
 ---
 
 Hello {{ 'tobi' | upcase }}

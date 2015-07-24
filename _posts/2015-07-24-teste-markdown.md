@@ -1,6 +1,5 @@
 ---
 title: Teste de Markdown
-category: teste
 ---
 
 {{ page.url }}
