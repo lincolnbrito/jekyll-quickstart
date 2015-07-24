@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" media="screen" href="/assets/css/main.css"/>
-    <link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
-    <link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/css/main.css?v={{ site.time | date: '%s' }}"/>
+    <link rel="stylesheet" media="screen" href="/assets/css/master.css?v={{ site.time | date: '%s' }}"/>
+    <link rel="stylesheet" media="screen" href="/assets/css/syntax.css?v={{ site.time | date: '%s' }}"/>
   </head>
   <body>
     <div id="container"> 
