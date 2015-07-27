@@ -1,0 +1,5 @@
+---
+nome: Fulano
+---
+
+{{ page.nome }}

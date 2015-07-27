@@ -1,6 +1,13 @@
 #permalink: /brodin/:year/:month/:title
 include: ['_pages','portfolio']
 highlighter: rouge
+
+collections:
+  pessoas:
+    output: true
+    relative_directory: _collections/_pessoas
+    #permalink: /pessoas/:path/
+
 defaults:
   -
     scope:
@@ -25,6 +32,12 @@ defaults:
     values:
       layout: "portfolio"  
       permalink: /portfolio/:title
+  -
+    scope:
+      path: "pessoas" 
+      type: "pessoas" 
+    values:
+      layout: "default"
 
 # Site Configuration
 title:            O Nome do Seu Site Aqui
@@ -39,3 +52,4 @@ owner:
 
 sass:
   style: compressed
+
