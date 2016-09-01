@@ -2,4 +2,5 @@
 nome: Fulano
 ---
 
-{{ page.nome }}
+
+**Fulano**
